@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,15 +18,6 @@
     <![endif]-->
   </head>
   <body>
-
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=254314947947045&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 
     <!-- Bootstrap core JavaScript
@@ -43,6 +34,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
 
 
 
@@ -63,7 +55,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
           <li class="divider"></li>
          <li><a href="menu.html">Menu</a></li>
             <li class="divider"></li>
@@ -72,7 +64,7 @@
             <li class="divider"></li>
             <li><a href="location.html">Location</a></li>
             <li class="divider"></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </li>
         
@@ -81,29 +73,31 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+
 <div class="container">
-<h1>Award-winning burgers</h1>
-<div>Graze Magazine named our burgers the Best in St. Louis for 2014</div>
 
-<h1 class="green">Fresh ingredients bought locally</h1>
-<div>We're proud to use fresh ingredients from local Missouri and Illinois producers</div>
+<div id="wufoo-zjk4g661g5ulda">
+Contact us by clicking <a href="https://curranhennessey.wufoo.com/forms/zjk4g661g5ulda">here</a>.
+</div>
+<script type="text/javascript">var zjk4g661g5ulda;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'curranhennessey',
+'formHash':'zjk4g661g5ulda',
+'autoResize':true,
+'height':'539',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { zjk4g661g5ulda = new WufooForm();zjk4g661g5ulda.initialize(options);zjk4g661g5ulda.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
 
-<h1>Made-from-scratch milkshakes</h1>
-<div>Our creamy milkshakes feature homemade ice cream made from all-natural ingredients</div>
 
 </div>
-<div class="transbox"></div>
 
-<div class="footer">
-<h3>Follow us</h3>
-<div class="fb-like" data-href="https://www.facebook.com/pages/Baileys-Range/141451302615123" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
- 
-
-
-
-
-
-
-</div>
 </body>
 </html>
