@@ -1,11 +1,4 @@
 
-img {
-  width: 55%;
-  display: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 body {
 	background-color: #04285C;
@@ -18,13 +11,9 @@ div.source {
 
 .intro {
 	background: #FFE100;
-	padding-bottom: 10px;
-}
-
-.support {
-	background: white;
 	padding-bottom: 25px;
 }
+
 
 .end {
 	
@@ -37,10 +26,12 @@ h3, h2 {
 .YAL {
 	color: #FFE100;
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 15px;
 }
 
-img.constitution {
-padding-top: 25px;
+.join {
+	background: white;
+	padding-top: 15px;
+	padding-bottom: 20px;
 }
