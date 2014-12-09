@@ -18,7 +18,9 @@ div.source {
 
 .intro {
 	background: #FFE100;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	font-size: 115%;
 }
 
 .support {
@@ -30,8 +32,9 @@ div.source {
 	
 	}
 
-h3, h2 {
+h3, h2, h1 {
 	color: #04285C;
+	size: 115%;
 }
 
 .YAL {
