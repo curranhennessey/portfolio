@@ -47,3 +47,7 @@ h3, h2, h1 {
 img.constitution {
 padding-top: 25px;
 }
+
+p.space {
+	padding-top: 10px;
+}
